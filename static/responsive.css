@@ -1,0 +1,524 @@
+/********************Model CSS GOES HERE */
+@media (max-width: 1200px) {
+  .model .header #E-2 #model-names {
+    display: none;
+    padding-left: 0px;
+  }
+  .model .header #E-2 #menu {
+    width: 100%;
+    justify-content: flex-end;
+  }
+  .model .header #E-2 #menu .menu-media-query {
+    visibility: hidden;
+  }
+  .model .header #E-2 #menu .name {
+    font-size: large;
+    background-color: #93a9c8;
+    border-radius: 12px;
+    padding: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .model .header #E-1 {
+    min-width: 130px;
+  }
+  .model .model-footer {
+    justify-content: space-around;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+@media (max-width: 840px) {
+  .model .model-footer .model-footer-media-query {
+    display: none;
+  }
+  .model {
+    background: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/fdd414b6-2519-457d-8489-94503a783f2d/bvlatuR/std/800x1700/MS-Hero-Mobile")
+      no-repeat center center/cover;
+  }
+}
+@media (max-width: 640px) {
+  .model .model-footer {
+    flex-direction: column;
+    margin-top: 40vh;
+  }
+  .model .model-footer h1 {
+    font-size: 1.45em;
+  }
+  .model-footer .model-footer-content {
+    justify-content: space-around;
+    margin-bottom: 3%;
+  }
+  .model .model-footer button {
+    min-width: 100%;
+  }
+}
+@media (max-width: 420px) {
+  .model .model-footer h1 {
+    font-size: 1.35em;
+  }
+  .model .model-footer {
+    line-height: 28px;
+  }
+  .model .header #E-2 {
+    width: 60%;
+  }
+  .model .header #E-2 #menu .name {
+    font-size: medium;
+  }
+}
+/********************Model CSS END HERE */
+
+/****************CAROUSEL CSS GOES HERE */
+@media (max-width: 1200px) {
+  .carousel {
+    padding: 40px;
+  }
+  .carousel .carousel-inner {
+    height: 120vh;
+  }
+  .slide-content {
+    padding-right: 5%;
+    margin-left: 15%;
+  }
+  .navigation-manual {
+    margin-top: -9%;
+    margin-left: 2%;
+  }
+  .navigation-auto {
+    margin-top: -9%;
+    margin-left: 2%;
+  }
+  .carousel .plusbtn {
+    display: none;
+  }
+}
+@media (max-width: 900px) {
+  .carousel {
+    padding: 10px;
+    padding-top: 100px;
+  }
+  .slide {
+    width: 90%;
+  }
+  .carousel .carousel-inner {
+    height: 110vh;
+  }
+
+  .slide-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+    margin-left: 3%;
+    padding-right: 2%;
+  }
+  .navigation-manual {
+    margin-top: -150px;
+    margin-left: 20px;
+  }
+  .navigation-auto {
+    margin-top: -150px;
+    margin-left: 20px;
+  }
+  .slide-content h1 {
+    padding-top: 0%;
+    padding-bottom: 2%;
+  }
+}
+@media (max-width: 500px) {
+  .navigation-auto {
+    display: none;
+  }
+  .navigation-manual {
+    display: none;
+  }
+}
+@media (max-width: 455px) {
+  .carousel .carousel-inner {
+    height: 80vh;
+  }
+}
+
+/***************a2 CSS GOES HERE */
+@media (max-width: 1200px) {
+  .a2 {
+    padding: 40px;
+  }
+}
+@media (max-width: 900px) {
+  .a2 {
+    padding: 0px;
+    padding-bottom: 120px;
+  }
+  .a2-container {
+    grid-template-columns: 100%;
+    grid-template-rows: 15% 10% 15% 10% 15% 10% 15% 10%;
+  }
+  .a2-container img {
+    z-index: 100;
+  }
+  .left {
+    margin-right: 0%;
+  }
+  .right {
+    margin-left: 0%;
+  }
+  .a2-mediaquery-item3 {
+    grid-row: 4;
+  }
+  .a2-mediaquery-item7 {
+    grid-row: 8;
+  }
+  .a2-mediaquery-text {
+    margin-top: 3%;
+    padding: 5%;
+  }
+}
+
+/*******beyond ludcrious css goes here */
+@media (max-width: 1200px) {
+  .beyond-ludicrous-content {
+    justify-content: center;
+    padding: 3%;
+  }
+  .beyond-ludicrous-content div {
+    min-width: 40%;
+  }
+  .beyond-ludicrous-content p {
+    padding-right: 0%;
+  }
+}
+@media (max-width: 975px) {
+  .bl-image-content {
+    justify-content: space-around;
+  }
+}
+@media (max-width: 840px) {
+  .beyond-ludicrous-content {
+    padding: 3%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  .beyond-ludicrous-image {
+    height: 100vh;
+    background: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/c5338dae-7639-4fc1-952f-c1f26bffa11a/bvlatuR/std/960x1350/MS-Performance-Hero-Mobile")
+      no-repeat center;
+    background-size: cover;
+  }
+  .bl-image-content {
+    justify-content: center;
+    margin-bottom: 15%;
+    padding-left: 10%;
+  }
+  .beyond-ludicrous-image-element {
+    margin-right: 10%;
+    font-size: medium;
+  }
+  .beyond-ludicrous-content {
+    flex-direction: column;
+  }
+  .bl-btn {
+    display: none;
+  }
+  .bl-mediaquery-btn {
+    display: block;
+  }
+  .beyond-ludicrous-content p {
+    margin-top: 5%;
+    margin-bottom: 3%;
+  }
+  .beyond-ludicrous-content div h1 {
+    font-size: 1.7rem;
+  }
+}
+@media (max-width: 640px) {
+  .beyond-ludicrous-image {
+    height: 60vh;
+  }
+  .bl-image-content {
+    padding-left: 15%;
+  }
+  .beyond-ludicrous-image-element {
+    font-size: smaller;
+    margin-right: 15%;
+  }
+}
+@media (max-width: 600px) {
+  .beyond-ludicrous-image-element {
+    font-size: 0.7rem;
+    margin-right: 15%;
+  }
+  .bl-mediaquery-btn {
+    min-width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .beyond-ludicrous-image-element {
+    margin-right: 0%;
+  }
+  .beyond-ludicrous-image {
+    height: 50vh;
+  }
+  .bl-image-content {
+    justify-content: space-around;
+    padding-left: 0%;
+  }
+}
+
+/****************ELECTRIC POWERTRAIN CSS GOES HERE */
+@media (max-width: 1200px) {
+  .electric-powertrain {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .electric-powertrain-content {
+    padding-left: 5%;
+  }
+  .ep-image-content {
+    font-size: small;
+  }
+  .div h2 {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 840px) {
+  .electric-powertrain-content {
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+  }
+  .electric-powertrain-content p {
+    max-width: 50%;
+  }
+  .electric-powertrain-content h1 {
+    min-width: 50%;
+  }
+
+  .ep-image-content .div {
+    padding: 0%;
+    padding-left: 3%;
+    justify-content: space-around;
+    min-width: 120px;
+    max-height: 420px;
+  }
+  .ep-image-content div span {
+    flex-direction: column;
+  }
+  .ep-image-content {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .div span div {
+    min-width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .ep-image-content {
+    padding-left: 5%;
+    padding-right: 2%;
+    padding-top: 10%;
+  }
+  .electric-powertrain {
+    padding-bottom: 10%;
+  }
+  .electric-powertrain-content p {
+    max-width: 100%;
+  }
+  .electric-powertrain-content h1 {
+    min-width: 100%;
+    font-size: 1.5rem;
+  }
+  .electric-powertrain-content {
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    padding-top: 8%;
+  }
+}
+
+/*******AUTOPILOT CSS GOES  HERE */
+@media (max-width: 1200px) {
+  .acv-item-desktop {
+    display: block;
+  }
+  .acv-item-mobile {
+    display: none;
+  }
+  .autopilot-bottom {
+    justify-content: space-around;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .autopilot-bottom .autopilot-heading {
+    width: 300px;
+    margin-right: 5%;
+  }
+  .autopilot-bottom .autopilot-content {
+    width: 600px;
+    opacity: 0.9;
+  }
+}
+@media (max-width: 840px) {
+  .autopilot-video-content .avc-inner {
+    flex-direction: row;
+    padding-right: 10%;
+  }
+  .avc-inner .avc-item {
+    width: 120px;
+    padding-bottom: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .acv-item-desktop {
+    display: none;
+  }
+  .acv-item-mobile {
+    display: block;
+    min-width: 105px;
+  }
+  .avc-item .u-sensor {
+    justify-content: center;
+    padding-right: 10%;
+  }
+  .twelve-image img {
+    max-width: 35px;
+  }
+  .avc-item h1 {
+    font-size: 1.7rem;
+  }
+  .avc-item p {
+    font-size: 0.9em;
+  }
+  .autopilot-bottom {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .autopilot-bottom .autopilot-heading {
+    min-width: 100%;
+    margin-right: 0%;
+    margin-bottom: 30px;
+  }
+  .autopilot-bottom .autopilot-content {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .autopilot-heading h1 {
+    font-size: 1.6rem;
+  }
+  .autopilot-btn-desktop {
+    display: none;
+  }
+  .autopilot-btn-mobile {
+    display: block;
+  }
+}
+@media (max-width: 600px) {
+  .autopilot-btn {
+    min-width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .autopilot-video-content .avc-inner {
+    padding: 0px;
+  }
+}
+
+/****************** MODELS specs CSS GOES HERE */
+@media (max-width: 1200px) {
+  .msc-content .msc-content-right {
+    padding-right: 2%;
+  }
+  .msc-content .msc-content-left {
+    width: 50%;
+  }
+  .models-specs-content .msc-btn {
+    padding-right: 0%;
+  }
+}
+@media (max-width: 600px) {
+  .models-specs {
+    flex-direction: column;
+  }
+  .models-specs .models-specs-image {
+    min-width: 100%;
+  }
+  .models-specs .models-specs-content {
+    min-width: 100%;
+  }
+  .msc-content-item::before {
+    width: 35px;
+    margin-top: -2%;
+  }
+  .models-specs-content .msc-btn {
+    padding-bottom: 8%;
+  }
+}
+
+/*****************FOOTER CSS GOES HERE */
+@media (max-width: 640px) {
+  .footer-image {
+    display: none;
+  }
+  .footer .footerhead {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .footerhead .footer-content {
+    margin-left: 0;
+    min-width: 100%;
+  }
+  .footerbottom .footerbottomitem {
+    padding-right: 2%;
+  }
+}
+@media (max-width: 600px) {
+  .footer-content-btn button {
+    width: 100%;
+    margin-top: 2%;
+  }
+  .footer-content .footer-content-btn {
+    display: block;
+    padding-top: 10%;
+  }
+  .footer .footerbottom {
+    flex-direction: column;
+  }
+  .footerbottom .footerbottomitem:nth-last-child(4) {
+    display: none;
+  }
+  .footerbottom .footerbottomitem:nth-last-child(1) {
+    display: none;
+  }
+  .footerbottom .footerbottomitem:nth-last-child(2) {
+    display: none;
+  }
+  .footerbottom .footerbottomitem:nth-last-child(5) {
+    display: none;
+  }
+  .footerbottom .footerbottomitem {
+    margin-top: 4%;
+  }
+}
+
+/************** Features CSS goes here */
+@media (max-width: 1200px) {
+  .features-content p {
+    padding-right: 2%;
+  }
+  .features .features-content {
+    margin-bottom: 6%;
+  }
+  .video-carousel-content .vcc-items {
+    width: 170px;
+  }
+  .video-carousel-content .vcc-active {
+    width: 170px;
+  }
+}
+@media (max-width: 400px) {
+  .video-carousel-content .vcc-items {
+    margin-right: 30px;
+  }
+}

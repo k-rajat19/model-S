@@ -1,0 +1,803 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+  margin:0;
+	padding:0;
+	border:0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Gotham Book", "-apple-system", "BlinkMacSystemFont", "Segoe UI",
+    "Roboto", "Helvetica Neue", "Arial,sans-serif" !important;
+  font-weight: 650;
+  font-size: 15px;
+  color: #393c41;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/********************************************* Model CSS GOES HERE */
+.model {
+  height: 100vh;
+  scroll-behavior: smooth;
+  background: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/32e5e0f3-5c04-42ef-8f8f-c6b1c26f8a9e/bvlatuR/std/2880x1800/ms-main-hero-desktop")
+    no-repeat center center/cover;
+}
+.model .header {
+  display: flex;
+  padding: 1.8vh;
+}
+.model .header #E-1 {
+ min-width: 140px;
+
+}
+.model .header #E-2 {
+  width: 100%;
+  display: flex;
+}
+.model .header #E-2 #model-names {
+  width: 100%;
+  display: flex;
+  padding-left: 17vw;
+}
+.model .header #E-2 .name {
+  padding-left: 2.5vw;
+}
+.model .header #E-2 #menu {
+  width: 30%;
+  display: flex;
+}
+.model .model-name {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 7vh;
+  /* border: 2px solid yellow; */
+}
+.model .model-name h1 {
+  font-weight: 500;
+  font-size: 2.7rem;
+  color: #1d1e1f;
+}
+.model .model-name span {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+.model .model-footer {
+  margin-top: 60vh;
+  display: flex;
+  justify-content: center;
+  color: white;
+  line-height: 32px;
+}
+.model-footer .model-footer-content{
+  display: flex;
+}
+.model .model-footer h1 p {
+  font-size: 0.45em;
+  font-weight: 500;
+}
+.model .model-footer h1 {
+  font-weight: 600;
+  font-size: 1.8em;
+  padding-right: 5vw;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.model .model-footer button {
+  background-color: transparent;
+  border-radius: 20px;
+  border: 3px solid white;
+  color: white;
+  font-weight: 550;
+  height: 2.5rem;
+  padding: 10px;
+  width: 10rem;
+  transition: all 0.5s;
+}
+.model .model-footer button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+/********************************************* Model CSS END HERE */
+
+.a1 {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  height: 18vh;
+}
+.a1 .a1-item {
+  font-size: 1.9rem;
+  font-weight: 500;
+  color: white;
+}
+.below-a1 {
+  height: 100vh;
+  background-image: linear-gradient(
+      to bottom,
+      black 1%,
+      transparent 20%,
+      transparent 99%
+    ),
+    url("https://tesla-cdn.thron.com/delivery/public/image/tesla/177c0faf-b852-47ea-a218-394368e15a20/bvlatuR/std/2880x1800/MS-Interior-Hero-Desktop");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+/**************************************************CAROUSEL CSS START HERE*/
+.carousel {
+  display: flex;
+  padding: 100px;
+  user-select: none;
+  background-color: black;
+}
+.carousel .carousel-inner {
+  overflow: hidden;
+  display: inline-block;
+  
+}
+.carousel .carousel-inner .slides {
+  transition: all 0.5s ease-in-out;
+  width: 400%;
+  display: flex;
+}
+.carousel-inner input {
+  display: none;
+}
+.slides img{
+  max-width:100%;
+  padding-left: 0.5vw;
+}
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25%;
+  padding-right: 18%;
+}
+.slide-content h1 {
+  font-weight: 600;
+  color: white;
+  padding-top: 4%;
+  padding-bottom: 2%;
+  font-size: 1.8em;
+}
+.slide-content p {
+  color: white;
+  opacity: 0.8;
+  font-weight: 550;
+  font-family: 'Montserrat', sans-serif;
+}
+/*css for manual slide navigation*/
+
+.navigation-manual {
+  position: absolute;
+  margin-top: -6.3%;
+  margin-left: 13%;
+  display: flex;
+  justify-content: center;
+}
+.manual-btn {
+  border: 1px solid white;
+  padding: 4px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-left: 0.5vw;
+}
+.manual-btn:hover {
+  background: white;
+}
+#radio1:checked ~ .slides {
+  transform: translateX(0vw);
+}
+#radio2:checked ~ .slides {
+  transform: translateX(-25.2%);
+}
+#radio3:checked ~ .slides {
+  transform: translateX(-50.2%);
+}
+#radio4:checked ~ .slides {
+  transform: translateX(-75.2%);
+}
+
+/*css for automatic navigation*/
+
+.navigation-auto {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-top: -6.3%;
+  margin-left: 13%;
+}
+.navigation-auto div {
+  border-radius: 10px;
+  transition: 0.1s;
+  border: 1px solid yellow;
+  padding: 4px;
+  margin-left: 0.5vw;
+}
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+  background: white;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+  background: white;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+  background: white;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+  background: white;
+}
+.carousel .plusbtn {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  position: relative;
+  top: -60%;
+}
+.carousel .plusbtn .prev,
+.next {
+  font-weight: normal;
+  fill: white;
+  cursor: pointer;
+  width: 2.5%;
+  border: 2px solid white;
+}
+.prev {
+  float: left;
+}
+.next {
+  float: right;
+}
+
+/************************************CAROUSEL CSS END HERE*/
+
+.a2{
+  display: flex;
+  background-color: black;
+  padding:100px;
+  font-family: 'Montserrat', sans-serif;
+}
+ .a2-container{
+   display: grid;
+   grid-template-columns:50% 50%;
+   grid-template-rows:25% 25% 25% 25%;
+   
+ }
+ .a2-container .a2-content{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   color: white;
+ }
+ .right{
+   margin-left:25%;
+ }
+ .left{
+   margin-right:25%;
+ }
+ .a2-content h4{
+    margin-bottom: 3.5%;
+    font-weight: 700;  
+ }
+ .a2-content p{
+   font-weight: 500;
+   opacity: 0.9;
+
+ }
+ .a2-image {
+   max-width: 100%;
+ }
+ 
+ 
+ /************************************** .beyond-ludicrous  CSS START HERE*/
+ .beyond-ludicrous{
+   background-color: white;
+  }
+  .beyond-ludicrous-image{
+    height: 60vh;
+    z-index: 100;
+    background: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/06e710a1-0428-45e9-8945-580e80d77b55/bvlatuR/std/2880x1800/MS-Performance-Hero-Desktop') no-repeat center center/cover;
+ }
+ .beyond-ludicrous-image .beyond-ludicrous-container{
+   height:inherit;
+   color: white;
+   display: flex;
+   align-items: flex-end;
+  }
+  .bl-image-content{
+    display: flex;
+    min-width: 100%;
+    margin-bottom: 5%;
+   justify-content: center;
+   padding-left: 10%;
+   font-family: 'Montserrat', sans-serif;
+ }
+ .beyond-ludicrous-image-element{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   margin-right: 10%;
+   font-size: smaller;
+  font-weight: 500;
+} 
+.beyond-ludicrous-content{
+  display: flex;
+  padding: 5%;
+  padding-left: 15%;
+ }
+ .beyond-ludicrous-content div{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+  }
+  .beyond-ludicrous-content div h1{
+    color: black;
+    font-weight: 600;
+  }
+  .beyond-ludicrous-content  p{
+    font-weight: 400; 
+    font-size: medium;
+    padding-right: 20%;
+ }
+ .beyond-ludicrous-content .bl-btn{
+  background-color: transparent;
+  border-radius: 20px;
+  border: 3px solid black;
+  color: black;
+  font-weight: 550;
+  height: 2.5rem;
+  padding: 10px;
+  width: 10rem;
+  transition: all 0.5s;
+  margin-top: 2%;
+ }
+ .beyond-ludicrous-content .bl-btn:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+ }
+ .bl-mediaquery-btn{
+     display: none;
+ }
+ /**************************************** .beyond-ludicrous  CSS END HERE*/
+ 
+ /************************************* electric-powertrain CSS START HERE*/
+ .electric-powertrain{
+  display: flex;
+  flex-direction: column;
+  background-color:#f5f5f5;
+  padding: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.electric-powertrain-content{
+  display: flex;
+   flex-direction: column;
+   padding-left: 10%;
+   padding-right: 20%;
+   padding-top: 2%;
+   padding-bottom: 2%;
+   font-weight: 500;   
+  }
+.electric-powertrain-content h1{
+  font-weight: 500;
+  margin-bottom: 3%;
+  color:black;
+}
+.electric-powertrain-content p{
+  opacity: 0.8;
+  font-weight: 400;
+  color: black;
+}
+.ep-image{
+  z-index:2;
+}
+.ep-image img{
+  max-width: 100%;
+  user-select: none;
+}
+.tri-motor{
+  display: none;
+}
+.ep-image-content{
+  display: flex;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 2%;
+  overflow: hidden;
+}
+ .active{
+  border:3px solid black;
+  transition: all 0.1s ease;
+}
+.inactive{
+  transition: all 0.1s ease;
+  border-top: 3px solid grey;
+}
+.h2-op-1{
+  transition: all 0.1s ease;
+  opacity: 1;
+}
+.h2-op-less{
+  transition: all 0.1s ease;
+  opacity: 0.6;
+}
+.p-op{
+  transition: all 0.1s ease;
+  opacity: 0.8;
+}
+.p-op-less{
+  transition: all 0.1s ease;
+  opacity: 0.6;
+}
+.ep-image-content .div{
+  display: flex;
+  flex-direction: column;
+  padding-top: 1%;
+  width: 50%;
+  margin-right: 4%;
+  padding-left: 2%;
+  user-select: none;
+}
+
+.ep-image-content .div:hover{
+  cursor:pointer;
+
+}
+.div h2{
+  font-weight: 500;
+  padding-bottom: 2%;
+}
+.div p{
+   padding-bottom: 5%;
+   font-weight: 500;
+   padding-right: 5%;
+}
+.long-range p{
+  padding-bottom: 8%;
+}
+.div span div{
+  width:35%;
+}
+.ep-image-content div span{
+  display:flex;
+}
+.electric-powertrain .ep-bottom{
+  text-align: center;
+  margin-top: 3%;
+  font-weight: 500;
+  font-size: smaller;
+  opacity: 0.8;
+}
+
+/**************************************** electric-powertrain CSS END HERE 
+
+/**************************************** autopilot css goes here */
+
+.autopilot-top{
+  height: 65vh;
+}
+.autopilot .autopilot-top video{
+  backface-visibility: hidden;
+    height: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    width: 100%;
+    object-position: center;
+    max-width: none;
+    object-fit: cover;
+    
+  
+    
+    
+}
+.autopilot .autopilot-top .autopilot-video-content{
+  height: 65vh;
+  display: flex;
+  position: relative;
+  z-index: 10;
+  bottom: 100%;
+  
+}
+.autopilot-video-content .avc-inner{
+  padding-left: 10%;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+.avc-inner .avc-item{
+  width: 75%;
+}
+.avc-item p{
+  width: 30%;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+.avc-item h1{
+  font-weight: 500;
+}
+.avc-item .u-sensor{
+ display: flex;
+}
+.twelve-image img{
+  max-width: 45px;
+}
+.u-sensor .us-text{
+  width: 15%;
+  font-weight: 500;
+}
+.autopilot-bottom{
+  display: flex;
+  padding-left: 12%;
+  padding-bottom: 4%;
+  padding-top: 4%;
+}
+.autopilot-bottom .autopilot-heading{
+  display: flex;
+  flex-direction: column;
+  width: 30%;  
+}
+.autopilot-heading h3{
+  font-weight: 400;
+}
+.autopilot-heading h1{
+  font-weight: 500;
+  color: black;
+}
+.autopilot-btn-desktop{
+  display: block;
+}
+.autopilot-btn-mobile{
+  display: none;
+}
+ .autopilot-btn{
+  background-color: transparent;
+  border-radius: 20px;
+  border: 3px solid black;
+  color: black;
+  font-weight: 550;
+  height: 2.5rem;
+  padding: 10px;
+  width: 10rem;
+  transition: all 0.5s;
+  margin-top: 2%;
+}
+ .autopilot-btn:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer; 
+}
+.autopilot-bottom .autopilot-content{
+  width: 50%;
+  font-weight: 600;
+  font-size: medium;
+}
+
+ /*********************** autopilot CSS END here */
+
+
+ /********************** FEATURES CSS GOES HERE */
+ .features{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 2%;
+   padding-top: 5%;
+   padding-bottom: 10%;
+   overflow: hidden;
+   z-index: 1000;
+  }
+  .features .features-content{
+    margin-bottom: 3%;
+ }
+ .features-content h1{
+   font-weight: 500;
+   color: black;
+ }
+ .features-content p{
+   font-weight: 500;
+   padding-top:1%;
+   padding-right: 20%;
+ }
+  .video-carousel video{  
+    max-width: 100%;    
+  }
+  .features .video-carousel-content{
+  margin-top: 2%;
+   display: flex;
+   height: 190px;
+   transition: all 0.5s ease-out;
+ }
+ .video-carousel-content input{
+   visibility: hidden;
+ }
+ .video-carousel-content .vcc-items{
+   padding-right: 8%;
+   padding-top: 8%;
+   padding-left: 8%;
+   border-top: 3px solid grey;
+   display: flex;
+   flex-direction: column;
+   width: 200px;
+   margin-right: 50px;
+   opacity: 0.6;   
+ }
+ .vcc-items h2{
+   font-weight: 500;
+   font-size: 1.4rem;
+   line-height:1.5rem;
+   color: black;
+ }
+ .vcc-items p{
+   font-weight: 500;
+   margin-top: 10%;
+   
+ }
+ .video-carousel-content .vcc-active{
+   border:3px solid black;
+   position: absolute;
+   height: inherit;
+   width: 200px;
+   transition: all 0.3s ease-in-out;
+
+ }
+ .video-carousel .vcc-video-class{
+    display:none;
+ }
+/********************** FEATURES CSS END HERE */
+
+
+
+/********************** MODELS-SPECS CSS GOES HERE */
+.models-specs{
+  background-color: black;
+  display: flex;
+}
+.models-specs .models-specs-image{
+ display: flex;
+ width: 55%;
+ background-color: black;
+}
+.models-specs .models-specs-image img{
+  max-width: 100%;
+  object-fit: contain;
+}
+.models-specs .models-specs-content{
+  
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding:2%;
+ }
+.models-specs-content .msc-heading{
+  display: flex;
+  padding-top: 7%;
+}
+.msc-heading h1{
+   font-weight: 400;
+}
+.models-specs-content .msc-btn{
+  display: flex;
+  padding-top: 4%;
+  padding-right:20%;
+  padding-bottom: 10%;
+}
+.msc-btn .msc-actualbtn{
+  background-color: transparent;
+  border-radius: 20px;
+  border: 3px solid #f5f5f5;
+  color: #f5f5f5;
+  font-weight: 550;
+  height: 2.2rem;
+  padding: 5px;
+  width: 50%;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+}
+.msc-content{
+  display: flex;
+}
+.msc-content .msc-content-left{
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+}
+.msc-content .msc-content-right{
+  display: flex;
+  flex-direction: column;
+  width: 50%; 
+   padding-right: 20%; 
+}
+.msc-content .msc-content-item{
+  font-weight: 500;
+  padding-bottom:35px ;
+}
+.msc-content .msc-c-i-left{
+  padding-bottom: 15%;
+}
+.msc-content-item::before{
+  content : "";
+  position: absolute;
+  width   : 3%; 
+  margin-top: -1%;
+  border:1px solid white;
+}
+/********************** MODELS-SPECS CSS END HERE */
+
+/**************************** Footer css goes here */
+.footer{
+  background-color: white;
+}
+.footer .footerhead{
+  display: flex;
+  overflow: hidden;
+  padding: 10%;
+  padding-right: 0px;
+}
+.footerhead .footer-content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: auto;
+}
+.footer-content h1{
+  font-weight: 500;
+  color: black;
+}
+.footer-content .footer-content-btn{
+  display: flex;
+}
+.footer-content-btn a{
+  margin-right: 5%;
+  color: black;
+}
+.footer-content-btn button{
+  background-color: transparent;
+  border-radius: 20px;
+  border: 3px solid black;
+  color: black;
+  font-weight: 550;
+  height: 2.5rem;
+  padding: 10px;
+   width: 12rem;
+  margin-top: 15%;
+}
+.footer-content-btn button:hover{
+  background-color: black;
+  color: #6f7074;
+  cursor: pointer; 
+}
+.footer-image img{
+  max-width: 720px;
+}
+.footer .footerbottom{
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+ padding-bottom: 2%;
+}
+.footerbottom .footerbottomitem{
+  padding-right: 1%;
+  margin-top: 2%;
+  font-weight: 600;
+  opacity: 0.8;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+/*********************Footer CSS END Here */
