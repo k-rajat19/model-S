@@ -154,6 +154,9 @@
     grid-template-columns: 100%;
     grid-template-rows: 15% 10% 15% 10% 15% 10% 15% 10%;
   }
+  .a2-container .a2-content{
+    padding-bottom: 20%;
+  }
   .a2-container img {
     z-index: 100;
   }
@@ -509,12 +512,19 @@
   }
   .features .features-content {
     margin-bottom: 6%;
+    padding-left: 2%;
   }
   .video-carousel-content .vcc-items {
     width: 170px;
   }
   .video-carousel-content .vcc-active {
     width: 170px;
+  }
+}
+@media (max-width:600px){
+  .features{
+    padding-top: 25%;
+    padding-bottom: 20%;
   }
 }
 @media (max-width: 400px) {
