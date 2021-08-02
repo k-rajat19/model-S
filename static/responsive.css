@@ -304,6 +304,9 @@
     min-width: 120px;
     max-height: 420px;
   }
+  .div p{
+    font-weight: 400;
+  }
   .ep-image-content div span {
     flex-direction: column;
   }
@@ -406,6 +409,7 @@
   .autopilot-bottom .autopilot-content {
     width: 100%;
     margin-bottom: 20px;
+    font-weight: 400;
   }
   .autopilot-heading h1 {
     font-size: 1.6rem;
@@ -441,14 +445,23 @@
   }
 }
 @media (max-width: 600px) {
+
   .models-specs {
     flex-direction: column;
   }
   .models-specs .models-specs-image {
     min-width: 100%;
   }
+  .msc-content .msc-content-item p{
+    font-weight: 400;
+  }
   .models-specs .models-specs-content {
     min-width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .msc-heading h1{
+    font-weight: 450;
   }
   .msc-content-item::before {
     width: 35px;
@@ -474,6 +487,7 @@
   }
   .footerbottom .footerbottomitem {
     padding-right: 2%;
+    font-weight: 400;
   }
 }
 @media (max-width: 600px) {
@@ -509,6 +523,7 @@
 @media (max-width: 1200px) {
   .features-content p {
     padding-right: 2%;
+    
   }
   .features .features-content {
     margin-bottom: 6%;
@@ -525,6 +540,12 @@
   .features{
     padding-top: 25%;
     padding-bottom: 20%;
+  }
+  .features-content p {
+     font-weight: 400;   
+  }
+  .vcc-items p{
+    font-weight: 400;
   }
 }
 @media (max-width: 400px) {
