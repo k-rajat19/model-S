@@ -300,6 +300,7 @@
     .ep-image-content .div {
       padding: 0%;
       padding-left: 3%;
+      padding-top: 5%;
       justify-content: space-around;
       min-width: 120px;
       max-height: 420px;
