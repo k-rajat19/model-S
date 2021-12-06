@@ -1,1 +1,188 @@
-const _0x398e=['px)','5441hvnZxD','364469gIzieS','none','matchMedia','plaid-h2','vcc-video-0','transform','classList','plaid','h2-op-less','radio','add','tri-motor','contains','msc-actualbtn','addEventListener','9vmkxQH','longrange-h2','style','long-range-p','opacity','inactive','vcc-radio1','vcc-video-','148847KnKEZI','6jjKGlu','click','display','137CYKTGc','msc-content-left','(max-width:\x20840px)','h2-op-1','68261UrEgXX','vcc-active','p-op-less','1473540CwcYng','plaid-p','checked','getBoundingClientRect','vcc-items','play','vcc-radio','0.6','active','left','13921NXqARS','block','pause','Tesla\x20©\x202021\x20(by\x20@_k_rajat)','matches','getElementsByClassName','long-range','dual-motor','5SQMKMD','remove','msc-content-right','offsetLeft','p-op','getElementById','883808SBaSpK','translateX('];const _0x491e16=_0x3f07;(function(_0x1acca8,_0xbb47e){const _0x23345d=_0x3f07;while(!![]){try{const _0x3efc8b=parseInt(_0x23345d(0x164))+parseInt(_0x23345d(0x167))*-parseInt(_0x23345d(0x183))+parseInt(_0x23345d(0x187))*parseInt(_0x23345d(0x177))+parseInt(_0x23345d(0x17f))*parseInt(_0x23345d(0x15e))+parseInt(_0x23345d(0x180))*parseInt(_0x23345d(0x194))+parseInt(_0x23345d(0x168))+-parseInt(_0x23345d(0x18a));if(_0x3efc8b===_0xbb47e)break;else _0x1acca8['push'](_0x1acca8['shift']());}catch(_0x3871ad){_0x1acca8['push'](_0x1acca8['shift']());}}}(_0x398e,0x73186));var counter=0x1,timer;function slide(){const _0x41c89d=_0x3f07;document['getElementById'](_0x41c89d(0x171)+counter)[_0x41c89d(0x18c)]=!![],counter++,counter>0x4&&(counter=0x1);}timer=setInterval(slide,0xfa0);function plusSlides(_0x1f9812){const _0x80555d=_0x3f07;clearInterval(timer);if(_0x1f9812===0x1){var _0x35cd88=counter+0x1;_0x35cd88>0x4&&(_0x35cd88=0x1);}if(_0x1f9812===-0x1){var _0x35cd88=counter-0x1;_0x35cd88<0x1&&(_0x35cd88=0x4);}document[_0x80555d(0x163)](_0x80555d(0x171)+_0x35cd88)['checked']=!![],timer=setInterval(slide,0xfa0),counter=_0x35cd88;}let longrange=document[_0x491e16(0x199)](_0x491e16(0x19a))[0x0],plaid=document['getElementsByClassName'](_0x491e16(0x16f))[0x0],longrangeh2=document[_0x491e16(0x199)](_0x491e16(0x178)),plaidh2=document[_0x491e16(0x199)](_0x491e16(0x16b)),longrangep=document[_0x491e16(0x199)](_0x491e16(0x17a)),plaidp=document[_0x491e16(0x199)](_0x491e16(0x18b)),dualmotorimg=document[_0x491e16(0x199)](_0x491e16(0x15d))[0x0],trimotorimg=document[_0x491e16(0x199)](_0x491e16(0x173))[0x0];longrange['addEventListener'](_0x491e16(0x181),()=>{const _0x56084c=_0x491e16;if(longrange[_0x56084c(0x16e)]['contains'](_0x56084c(0x17c))){longrange[_0x56084c(0x16e)][_0x56084c(0x15f)](_0x56084c(0x17c)),longrange[_0x56084c(0x16e)][_0x56084c(0x172)](_0x56084c(0x192)),trimotorimg[_0x56084c(0x179)]['display']='none',dualmotorimg[_0x56084c(0x179)]['display']=_0x56084c(0x195),plaid[_0x56084c(0x16e)][_0x56084c(0x15f)](_0x56084c(0x192)),plaid[_0x56084c(0x16e)][_0x56084c(0x172)](_0x56084c(0x17c));for(element of plaidh2){element['classList'][_0x56084c(0x15f)](_0x56084c(0x186)),element[_0x56084c(0x16e)][_0x56084c(0x172)](_0x56084c(0x170));}for(element of longrangeh2){element[_0x56084c(0x16e)][_0x56084c(0x172)](_0x56084c(0x186)),element[_0x56084c(0x16e)][_0x56084c(0x15f)](_0x56084c(0x170));}for(element of plaidp){element[_0x56084c(0x16e)]['remove'](_0x56084c(0x162)),element[_0x56084c(0x16e)][_0x56084c(0x172)](_0x56084c(0x189));}for(element of longrangep){element[_0x56084c(0x16e)][_0x56084c(0x172)](_0x56084c(0x162)),element['classList'][_0x56084c(0x15f)](_0x56084c(0x189));}}}),plaid[_0x491e16(0x176)](_0x491e16(0x181),()=>{const _0x270ea6=_0x491e16;if(plaid[_0x270ea6(0x16e)][_0x270ea6(0x174)](_0x270ea6(0x17c))){plaid[_0x270ea6(0x16e)]['remove']('inactive'),plaid[_0x270ea6(0x16e)]['add'](_0x270ea6(0x192)),dualmotorimg[_0x270ea6(0x179)][_0x270ea6(0x182)]=_0x270ea6(0x169),trimotorimg['style'][_0x270ea6(0x182)]=_0x270ea6(0x195),longrange[_0x270ea6(0x16e)]['remove'](_0x270ea6(0x192)),longrange[_0x270ea6(0x16e)][_0x270ea6(0x172)](_0x270ea6(0x17c));for(element of longrangeh2){element[_0x270ea6(0x16e)][_0x270ea6(0x15f)]('h2-op-1'),element[_0x270ea6(0x16e)]['add'](_0x270ea6(0x170));}for(element of plaidh2){element[_0x270ea6(0x16e)][_0x270ea6(0x15f)](_0x270ea6(0x170)),element[_0x270ea6(0x16e)][_0x270ea6(0x172)](_0x270ea6(0x186));}for(element of longrangep){element[_0x270ea6(0x16e)][_0x270ea6(0x15f)]('p-op'),element[_0x270ea6(0x16e)][_0x270ea6(0x172)](_0x270ea6(0x189));}for(element of plaidp){element[_0x270ea6(0x16e)][_0x270ea6(0x15f)](_0x270ea6(0x189)),element['classList'][_0x270ea6(0x172)](_0x270ea6(0x162));}}}),document[_0x491e16(0x163)](_0x491e16(0x17d))[_0x491e16(0x18c)]=!![];var radiobtn=document[_0x491e16(0x199)](_0x491e16(0x190));let vccactive=document[_0x491e16(0x199)](_0x491e16(0x188))[0x0],vccitem=document[_0x491e16(0x199)](_0x491e16(0x18e)),videocarouselcontent=document[_0x491e16(0x199)]('video-carousel-content')[0x0];var screensize=window[_0x491e16(0x16a)](_0x491e16(0x185));let pos0=-videocarouselcontent['getBoundingClientRect']()[_0x491e16(0x193)];function maualvideocarousel(){const _0x23986b=_0x491e16;for(var _0x513975=0x0;_0x513975<radiobtn['length'];_0x513975++){if(radiobtn[_0x513975][_0x23986b(0x18c)]==!![]){if(screensize[_0x23986b(0x198)]){if(_0x513975>0x0){var _0x20fea7=-vccitem[_0x513975][_0x23986b(0x18d)]()[_0x23986b(0x193)];videocarouselcontent['style'][_0x23986b(0x16d)]=_0x23986b(0x165)+_0x20fea7+_0x23986b(0x166);}_0x513975==0x0&&(videocarouselcontent[_0x23986b(0x179)]['transform']='translateX('+pos0+_0x23986b(0x166));}vccactive[_0x23986b(0x179)][_0x23986b(0x193)]=vccitem[_0x513975][_0x23986b(0x161)]+'px';let _0x545c9e=document[_0x23986b(0x163)](_0x23986b(0x17e)+_0x513975);vccitem[_0x513975]['style']['opacity']='1',_0x545c9e[_0x23986b(0x179)][_0x23986b(0x182)]=_0x23986b(0x195),_0x545c9e[_0x23986b(0x18f)]();}else{let _0x1f6a00=document['getElementById'](_0x23986b(0x17e)+_0x513975);vccitem[_0x513975][_0x23986b(0x179)][_0x23986b(0x17b)]='0.6',_0x1f6a00[_0x23986b(0x179)]['display']='none',_0x1f6a00[_0x23986b(0x196)]();}}}function _0x3f07(_0x53bc76,_0x2ccabf){return _0x3f07=function(_0x398ea7,_0x3f07fb){_0x398ea7=_0x398ea7-0x15d;let _0x5cb216=_0x398e[_0x398ea7];return _0x5cb216;},_0x3f07(_0x53bc76,_0x2ccabf);}setInterval(maualvideocarousel,0x64);function videoend(_0x10af3e){const _0x29260a=_0x491e16;if(_0x10af3e>0x2){document[_0x29260a(0x163)](_0x29260a(0x17d))['checked']=!![];var _0x27c001=document['getElementById'](_0x29260a(0x16c));_0x27c001[_0x29260a(0x18f)](),maualvideocarousel();}else{document['getElementById'](_0x29260a(0x190)+(_0x10af3e+0x2))['checked']=!![];var _0x27c001=document['getElementById'](_0x29260a(0x17e)+(_0x10af3e+0x1));_0x27c001[_0x29260a(0x18f)](),maualvideocarousel();}}document[_0x491e16(0x199)]('footerbottomitem')[0x0]['innerHTML']=_0x491e16(0x197);let left=document['getElementsByClassName'](_0x491e16(0x184)),right=document[_0x491e16(0x199)](_0x491e16(0x160)),mscactualbtn=document['getElementsByClassName'](_0x491e16(0x175));function mscbtn(){const _0x4844ba=_0x491e16;for(leftelement of left){leftelement[_0x4844ba(0x179)][_0x4844ba(0x182)]==_0x4844ba(0x195)?leftelement['style'][_0x4844ba(0x182)]=_0x4844ba(0x169):leftelement[_0x4844ba(0x179)][_0x4844ba(0x182)]=_0x4844ba(0x195);}for(rightelement of right){rightelement['style']['display']==_0x4844ba(0x195)?rightelement['style']['display']=_0x4844ba(0x169):rightelement['style']['display']='block';}for(btn of mscactualbtn){btn[_0x4844ba(0x179)][_0x4844ba(0x17b)]!='1'?btn[_0x4844ba(0x179)][_0x4844ba(0x17b)]='1':btn[_0x4844ba(0x179)]['opacity']=_0x4844ba(0x191);}}
+
+//////////////////////////////// CROUSEL JS GOES HERE
+var counter = 1;
+var timer;
+function slide(){
+  document.getElementById('radio' + counter).checked = true;
+  counter++;
+  if(counter > 4){
+    counter = 1;
+  }
+}
+
+timer= setInterval(slide,4000);
+
+function plusSlides(n){
+clearInterval(timer);
+if(n===1){
+        var nextslide=counter+1;
+    if(nextslide > 4){
+        nextslide=1;
+    }
+}
+if(n===-1){
+    var nextslide=counter-1;
+    if(nextslide<1){
+        nextslide=4;
+    }
+}
+document.getElementById('radio' + nextslide).checked = true;
+timer= setInterval(slide,4000);
+counter=nextslide;
+}
+//////////////////////////////////////////CROUSEL JS END HERE
+
+///////////////////////////// electric-powertrain JS GOES HERE
+let longrange=document.getElementsByClassName('long-range')[0];
+let plaid= document.getElementsByClassName('plaid')[0];
+let longrangeh2=document.getElementsByClassName('longrange-h2');
+let plaidh2=document.getElementsByClassName('plaid-h2');
+let longrangep=document.getElementsByClassName('long-range-p');
+let plaidp =document.getElementsByClassName('plaid-p');
+let dualmotorimg=document.getElementsByClassName('dual-motor')[0];
+let trimotorimg=document.getElementsByClassName('tri-motor')[0];
+longrange.addEventListener('click',()=>{
+if(longrange.classList.contains('inactive')){
+  longrange.classList.remove('inactive');
+  longrange.classList.add('active');
+  trimotorimg.style.display="none";
+  dualmotorimg.style.display="block";
+  plaid.classList.remove('active');
+  plaid.classList.add('inactive');
+
+  for(element of plaidh2){
+    element.classList.remove('h2-op-1');
+    element.classList.add('h2-op-less');
+ }
+  for(element of longrangeh2){
+     element.classList.add('h2-op-1');
+     element.classList.remove('h2-op-less');
+  }
+
+  for(element of plaidp){
+    element.classList.remove('p-op');
+    element.classList.add('p-op-less');
+  }
+  for(element of longrangep){
+    element.classList.add('p-op');
+    element.classList.remove('p-op-less');
+  }
+}
+
+})
+plaid.addEventListener('click',()=>{
+if(plaid.classList.contains('inactive')){
+  plaid.classList.remove('inactive');
+  plaid.classList.add('active');
+  dualmotorimg.style.display="none";
+  trimotorimg.style.display="block";
+  longrange.classList.remove('active');
+  longrange.classList.add('inactive');
+
+  for(element of longrangeh2){
+   element.classList.remove('h2-op-1');
+   element.classList.add('h2-op-less');
+}
+  for(element of plaidh2){
+    element.classList.remove('h2-op-less');
+    element.classList.add('h2-op-1');
+ }
+ for(element of longrangep){
+  element.classList.remove('p-op');
+  element.classList.add('p-op-less');
+}
+ for(element of plaidp){
+   element.classList.remove('p-op-less');
+   element.classList.add('p-op');
+ }
+}
+})
+
+//////////////////////// electric-powertrain JS END HERE
+
+
+////////////////////// Features VIDEO CAROUSEL JS GOES HERE
+document.getElementById('vcc-radio1').checked=true;
+var radiobtn= document.getElementsByClassName('vcc-radio');
+let vccactive=document.getElementsByClassName('vcc-active')[0];
+let vccitem=document.getElementsByClassName('vcc-items');
+let videocarouselcontent=document.getElementsByClassName('video-carousel-content')[0];
+var screensize = window.matchMedia("(max-width: 840px)");
+let pos0=-(videocarouselcontent.getBoundingClientRect().left);
+
+//////////manual video carousel JS 
+function maualvideocarousel(){
+for(var i=0; i<radiobtn.length; i++)
+{
+  if(radiobtn[i].checked==true)
+  {
+   
+   if(screensize.matches){
+      if(i>0)
+      {
+        var pos=-vccitem[i].getBoundingClientRect().left;      
+        videocarouselcontent.style.transform = `translateX(${pos}px)`;
+      }
+    if(i==0) {videocarouselcontent.style.transform = `translateX(${pos0}px)`;}
+    } 
+
+    vccactive.style.left = `${vccitem[i].offsetLeft}px`;
+      let video=document.getElementById('vcc-video-'+i);
+      vccitem[i].style.opacity="1";
+      video.style.display="block";
+      video.play();
+    }
+    else{
+    let video=document.getElementById('vcc-video-'+i);
+    vccitem[i].style.opacity="0.6";
+      video.style.display="none";
+      video.pause();
+  }
+}
+}
+setInterval(maualvideocarousel,100);
+
+/////////automatic video carousel JS
+function videoend(n)
+{
+if(n>2){
+  document.getElementById('vcc-radio1').checked=true;
+  var video=document.getElementById('vcc-video-0');
+  video.play();
+  maualvideocarousel();
+}
+else
+{
+  document.getElementById('vcc-radio'+(n+2)).checked=true;
+  var video=document.getElementById('vcc-video-'+(n+1));
+  video.play();
+
+  maualvideocarousel();
+}
+}
+/////////////////////////////// Features VIDEO CAROUSEL JS END HERE
+
+///////////////////////Footer JS goes here
+// document.getElementsByClassName('footerbottomitem')[0].innerHTML='Tesla © 2021 (by @_k_rajat)';
+ let footerelem= document.createElement('div');
+ let parentfooter=document.getElementsByClassName('footerbottom')[0]
+ footerelem.appendChild('parentfooter');
+ footerelem.addClass('')
+/////////////////////////Footer JS end here
+
+//////////////////////////////////ModelS Specs JS GOES HERE
+let left=document.getElementsByClassName('msc-content-left');
+let right=document.getElementsByClassName('msc-content-right');
+let mscactualbtn=document.getElementsByClassName('msc-actualbtn');
+function mscbtn(){
+  for(leftelement of left){
+    leftelement.style.display=="block" ?   leftelement.style.display='none': leftelement.style.display='block';
+  }    
+  for(rightelement of right){
+    rightelement.style.display=="block" ?   rightelement.style.display='none': rightelement.style.display='block';
+  }
+ for(btn of mscactualbtn){
+   btn.style.opacity!='1'? btn.style.opacity='1':btn.style.opacity='0.6';
+ }
+}
+//////////////////////////////////ModelS Specs JS END HERE
